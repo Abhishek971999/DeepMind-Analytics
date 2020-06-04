@@ -1,0 +1,29 @@
+.header {
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, #7e24a6, #564bc2, #0982c1);
+  overflow-x: hidden;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #443591;
+  padding: 10px 50px;
+  color: #fff;
+}
+.button:hover {
+  text-decoration: none;
+  color: white;
+}
+@media screen and (max-width: 790px) {
+  .button {
+    padding: 10px 30px;
+  }
+}

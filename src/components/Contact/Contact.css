@@ -1,0 +1,33 @@
+.contact-section {
+  background-image: linear-gradient(180deg, #7e24a6, #564bc2, #0982c1);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.ip {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid #443591;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.ip::placeholder {
+  color: rgb(200, 200, 200);
+  padding-bottom: 10px;
+}
+.textarea {
+  width: 96%;
+}
+
+@media screen and (max-width: 790px) {
+  .ip {
+    margin: 0 5vw;
+    width: 90vw;
+  }
+  .contact-header-text {
+    font-size: x-large;
+  }
+  .contact-subheader-text {
+    font-size: small;
+  }
+}
